@@ -19,5 +19,18 @@ namespace HelloWorld.Controllers
         {
             return "Lucas";
         }
+
+        [HttpGet("/bsm")]
+        public string Bsm()
+        {
+            return "Trabalho em equipe \n Atenção aos detalhes \n Proatividade \n Comunicação" +
+                "\n Orientação ao Futuro \n Responsabilidade Pessoal \n Mentalidade de crescimento \n Persistência";
+        }
+
+        [HttpGet("/objetivos")]
+        public string Objetivo()
+        {
+            return "Aprender, estudar, e desenvolver códigos sobre ASP.Net  ";
+        }
     }
 }
